@@ -1,0 +1,227 @@
+.app-div{
+    border: 3px solid green ;
+    background-color: yellow;
+    width: 500px;
+    margin: 30vh auto;
+    padding-bottom: 10px;
+}
+
+@media(max-width:550px){
+  .app-div{
+    width: 95%;
+  }
+
+}
+
+.button-class{
+box-sizing: border-box;
+background-color:rgb(7, 180, 7);
+width: 50px;
+height: 50px;
+border-radius: 5px;
+margin: 5px;
+border:1px solid black;
+box-shadow: 0 0 10px black;
+text-align: center;
+padding-top: 12px;
+font-weight: bold;
+
+user-select: none;
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+transition: all 0;
+}
+
+.button-class:active{
+  box-shadow: 0 0 0px black;
+  
+  
+
+}
+.button-pad{
+    margin-left: 10px;
+    background-color: yellow;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: center;
+}
+
+
+.flex-div{
+    display:flex;
+}
+
+@media(max-width:450px){
+
+.app-div{
+  width: 300px;
+}
+
+  .flex-div{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.right{
+    background-color: yellow;
+    width: 100%;
+}
+
+.display{
+    box-sizing: border-box;
+    background-color: green;
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    margin: 10px auto;
+    font-weight: bold;
+    padding-top: 5px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    
+
+}
+
+.vol{
+    display: block;
+    margin: 20px auto;
+    box-sizing: content-box;
+    
+   
+}
+input[type=range] {
+   
+    -webkit-appearance: none;
+    margin: 10px auto;
+    width: 150px;
+  }
+  input[type=range]:focus {
+    outline: none;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    width: 150px;
+    height: 12px;
+    cursor: pointer;
+    background: #077807;
+    border-radius: 0px;
+    border-top: 3px solid #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
+    box-shadow: 0 2px 2px 0px  black;
+  }
+
+  input[type=range]::-webkit-slider-thumb {
+    
+    height: 20px;
+    width: 7px;
+    border-radius: 0px;
+    background: #42CF42;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -5.5px;
+  }
+
+  input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #077807;
+  }
+  input[type=range]::-moz-range-track {
+    width: 150px;
+    height: 12px;
+    cursor: pointer;
+    
+    
+    background: #077807;
+    border-radius: 0px;
+    border-top: 3px solid #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
+  }
+  input[type=range]::-moz-range-thumb {
+    height: 20px;
+    width: 7px;
+    border-radius: 0px;
+    background: #42CF42;
+    cursor: pointer;
+  }
+  input[type=range]::-ms-track {
+    width: 150px;
+    height: 8px;
+    cursor: pointer;
+    
+    
+  }
+  input[type=range]::-ms-fill-lower {
+    background: #077807;
+    border: 1px solid #FFFFFF;
+    border-radius: 0px;
+    
+  }
+  input[type=range]::-ms-fill-upper {
+    background: #077807;
+    border: 1px solid #FFFFFF;
+    border-radius: 0px;
+    
+  }
+  input[type=range]::-ms-thumb {
+    margin-top: 1px;
+   
+    height: 20px;
+    width: 7px;
+    border-radius: 0px;
+    background: #42CF42;
+    cursor: pointer;
+  }
+  input[type=range]:focus::-ms-fill-lower {
+    background: #077807;
+  }
+  input[type=range]:focus::-ms-fill-upper {
+    background: #077807;
+  }
+
+  .select{
+
+    width:40px;
+    height: 20px; 
+    background-color: black; 
+    margin: auto;
+    padding: 2px;
+    cursor: pointer;
+  }
+
+  .inner{
+    background-color: blue;
+    height: 100%;
+    width: 20px;
+    
+  }
+
+  .select2{
+      
+  }
+
+  .text-holder{
+      color: black;
+      margin-top: 5px;
+      text-align: center;
+      margin-bottom: 0;
+      font-weight: bold;
+      cursor: default;
+      user-select: none;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+  }
+
+  p{
+    font-weight: bold;
+    padding: 2px;
+    background-color: yellow;
+    margin: 0;
+    text-align: right;
+    text-decoration: underline;
+    font-style: italic;
+  }
